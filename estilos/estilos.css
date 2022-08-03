@@ -1,0 +1,503 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-family: "poppins";
+}
+
+.section-main {
+  background-image: url(../img/fon-contact.jpg);
+  background-size: cover;
+  background-position: right 0px top;
+  padding: 4% 0;
+  margin-bottom: 50px;
+}
+
+/* ----HEADER---- */
+
+header {
+  position: fixed;
+}
+
+header nav {
+  /* display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important; */
+  background-color: rgba(255, 255, 255, 0.593);
+  color: #280400;
+  width: 100vw;
+  height: 50px;
+  /* margin-bottom: 10px !important; */
+  /* padding: 20px; */
+}
+
+header p {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+header ul {
+  /* display: flex; */
+  font-weight: 700;
+  font-size: 18px;
+  /* margin: 20px; */
+}
+
+header ul li {
+  margin-right: 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+}
+
+/* ----MAIN---- */
+
+/* .contenedor {
+    margin-left: 100px;
+    width: 600px;
+} */
+
+.main-head {
+  background: url(../img/fon-contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 170px 0;
+}
+
+#encabezado div p {
+  width: 50%;
+  color: #280400;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#encabezado a,
+#contact .izquierda a {
+  text-decoration: none;
+  color: #280400;
+  border: 1px solid #280400;
+  padding: 20px 40px 20px 40px;
+}
+
+#encabezado a:hover,
+#contact .izquierda a:hover {
+  background: #280400;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.about img:hover {
+  transform: scale(1.1);
+}
+
+.contenedor h1 {
+  font-size: 80px;
+  font-family: "lora";
+  color: #280400;
+  margin-bottom: 0;
+}
+
+/* ---- INDEX ABOUT---- */
+.about > div h2 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.733);
+  color: #280400;
+  width: 100%;
+
+}
+.about img {
+  margin-top: 20px;
+  width: 60%;
+  margin-left: 40px;
+  transition: 0.5s;
+}
+
+/* .about > div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+} */
+
+/* .columnas {
+  display: flex;
+  margin-left: 10px;
+} */
+
+.about p {
+  color: #666;
+}
+
+
+
+/* ----CONTACTOS---- */
+#contact {
+  display: flex;
+  justify-content: space-evenly;
+  background: url(../img/contacto.png);
+  background-size: contain;
+  padding: 80px 0;
+}
+
+#contact .izquierda {
+  width: 40%;
+}
+
+#contact h2 {
+  font-size: 80px;
+  font-family: "lora";
+  color: #280400;
+  margin-bottom: 0;
+  margin-bottom: 70px;
+}
+
+#contact .izquierda p {
+  font-size: 14px;
+  color: #666;
+  margin-top: 40px;
+}
+
+#contact .derecha {
+  background: #280400;
+  color: #fff;
+  padding: 70px 30px;
+}
+
+.datos {
+  font-size: 13px;
+}
+
+.derecha h3 {
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.derecha a {
+  color: #fff;
+  border: 1px solid rgba(232, 226, 215, 0.2);
+  text-decoration: none;
+  padding: 15px 30px;
+}
+.derecha a:hover {
+  border-color: rgb(255, 255, 255);
+  color: white;
+  transition: 0.4s;
+}
+
+/* ----SHOP----
+.contenedor-shop h1 {
+  padding-bottom: 10px;
+  line-height: 1em;
+  font-weight: 500;
+  font-size: 110px;
+  color: #280400;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+  margin-left: 100px;
+}
+
+.contenedor-shop p {
+  width: 50%;
+  color: #666;
+  margin-bottom: 30px;
+  margin-left: 100px;
+} */
+
+/* ---VINOS ---*/
+.cont {
+  max-width: 530px;
+}
+
+.bg-tilcara{
+
+  background-image: url(../img/winery-68.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-purma{
+
+  background-image: url(../img/winery-42.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-maimara{
+
+  background-image: url(../img/winery-46.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.head-vino{
+  position: static;
+}
+
+.sz{
+  color: #280400;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+  max-width: 461px !important;
+  margin-top: 100px !important;
+
+}
+ .sz h2{
+  text-align: center;
+ }
+ 
+ .carousel-inner div p{
+  position: absolute !important;
+  bottom: 2% !important;
+  width: 88.1% !important;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgba(102, 102, 102, 0.556) !important;
+  text-align: center;
+  
+ }
+ .carousel-inner div p a{
+  text-decoration: none;
+  color: #280400;
+  
+ }
+
+ .carousel-inner div img{
+  box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 12px 0px rgba(0,0,0,0.75);
+ }
+
+ .container-fluid p{
+  text-shadow: #222;
+  text-shadow: red;
+  text-align: justify;
+ }
+
+/* ----CONTACTS-PAGE---- */
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-contacts h1 {
+  padding-bottom: 10px;
+  line-height: 1em;
+  font-weight: 500;
+  font-size: 110px;
+  color: #280400;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+  margin-left: 100px;
+}
+
+.contenedor-contacts p {
+  width: 50%;
+  color: #666;
+  margin-bottom: 30px;
+  margin-left: 100px;
+}
+
+#button {
+  text-align-last: center;
+}
+
+textarea {
+  border: none;
+  border-bottom: 2px solid #280400;
+  outline: none;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin-top: 50px;
+}
+input{
+  outline: none;
+}
+
+section form ul li input {
+  border: none;
+  border-bottom: 2px solid #280400;
+  font-size: 16px;
+  line-height: 1.4em;
+  margin-right: 20px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #280400;
+  font-family: "Poppins";
+}
+
+#button input {
+  padding: 10px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+ul label {
+  display: none;
+}
+
+#button input:hover {
+  background: #280400;
+  color: #fff;
+  transition: 0.4s;
+}
+
+/* ----SUSTENTABILIDAD-PAGE---- */
+
+.contenedor-landing h1 {
+  font-size: 100px !important;
+  font-family: "lora" !important;
+  color: #280400 !important;
+  margin-bottom: 0 !important;
+}
+
+.contenedor-landing p {
+  width: 50%;
+  color: #666;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+/* #encabezado {
+    background: url(../img/fondo.jpg);
+    background-size: cover;
+    padding: 170px 0;
+} */
+.contenedor-landing {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+/* ----ABOUT-PAGE---- */
+
+.contenedor-about {
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.titulo-about {
+  margin-top: 100px;
+  padding-bottom: 10px;
+  line-height: 1em;
+  font-weight: 500;
+  font-size: 80px;
+  color: #280400;
+  font-family: "Lora", Georgia, "Times New Roman", serif;
+  margin-left: 100px;
+}
+
+.encabezado-contenedor {
+  background-image: linear-gradient(
+      90deg,
+      rgba(248, 245, 241, 0) 33%,
+      rgba(248, 245, 241, 0.79) 100%
+    ),
+    url(../img/winery-68.jpg);
+  padding: 100px;
+  margin-top: 180px;
+  margin-left: 10%;
+  max-width: 900px;
+  text-align: right;
+}
+
+.subtitulo {
+  color: #280400;
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 60px;
+  line-height: 1.2em;
+}
+
+.mk-wine{
+  color: #280400;
+  font-family: 'Lora',Georgia,"Times New Roman",serif;
+  font-size: 60px;
+  line-height: 1.2em;
+  margin-left: 138px;
+}
+
+.para-about{
+  margin-left: 138px;
+
+}
+
+iframe{
+  margin-top: 50px;
+}
+
+.sz-about{
+  width: 300px;
+}
+
+.margen{
+  margin-right: 80px ;
+  margin-top: 15px;
+}
+
+.marg-img img{
+  width: auto;
+  height: 355px;
+  margin-left: 80px;
+}
+
+.marg-col-2{
+  margin-top: 15px;
+}
+
+
+
+
+
+/* ----FOOTER---- */
+
+#main-footer {
+  background-color: #222;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#footer-bottom {
+  padding: 15px 0 5px;
+}
+
+.footer-info{
+  color: white;
+}
+.redes-sociales {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  /* margin: 0 0 5px; */
+}
+.redes-sociales li {
+  /* display: inline-block; */
+  margin-left: 20px;
+}
+
+.redes-sociales a span{
+  text-decoration: none;
+}
+
+.icono{
+  font-size: 3rem;
+}
+
+.ico-color{
+  color: #f515db;
+}
+
+.ico{
+  border-radius: 50%;
+}
