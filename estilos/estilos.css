@@ -216,7 +216,7 @@ header ul li a {
 
 /* ---VINOS ---*/
 .cont {
-  max-width: 530px;
+  max-width: 495px;
 }
 
 .bg-tilcara{
@@ -244,6 +244,7 @@ header ul li a {
 .head-vino{
   position: static;
 }
+
 
 .sz{
   color: #280400;
