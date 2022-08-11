@@ -121,20 +121,6 @@ header ul li a {
   transition: 0.5s;
 }
 
-/* .about > div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 50px;
-    flex-wrap: wrap;
-    width: 100%;
-} */
-
-/* .columnas {
-  display: flex;
-  margin-left: 10px;
-} */
-
 .about p {
   color: #666;
 }
@@ -195,24 +181,6 @@ header ul li a {
   color: white;
   transition: 0.4s;
 }
-
-/* ----SHOP----
-.contenedor-shop h1 {
-  padding-bottom: 10px;
-  line-height: 1em;
-  font-weight: 500;
-  font-size: 110px;
-  color: #280400;
-  font-family: "Lora", Georgia, "Times New Roman", serif;
-  margin-left: 100px;
-}
-
-.contenedor-shop p {
-  width: 50%;
-  color: #666;
-  margin-bottom: 30px;
-  margin-left: 100px;
-} */
 
 /* ---VINOS ---*/
 .cont {
@@ -371,15 +339,51 @@ ul label {
   margin-bottom: 50px;
   margin-top: 80px;
 }
-/* #encabezado {
-    background: url(../img/fondo.jpg);
-    background-size: cover;
-    padding: 170px 0;
-} */
 .contenedor-landing {
   max-width: 1280px;
   width: 90%;
   margin: auto;
+}
+
+.img-size{
+  position: absolute;
+}
+.div-sz{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  margin-left: 1180px;
+}
+
+.eco{
+  color: #20F50F;
+  text-shadow: #2F752A 1px 2px 3px;
+  
+  font-size: medium;
+  margin-left: 5px;
+}
+
+.susten-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 3fr;
+  grid-area: 
+    "area1  area2   area3"
+  ;
+  gap: 20px;
+}
+
+.susten-grid h2 {
+  font-size:1.3rem;
+  font-weight: 900;
+  
+}
+
+.susten-grid p{
+  font-size: .9em;
 }
 
 /* ----ABOUT-PAGE---- */
